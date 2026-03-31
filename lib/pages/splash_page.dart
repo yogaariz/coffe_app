@@ -21,7 +21,7 @@ class SplashPage extends StatelessWidget {
             SizedBox(height: 20),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.orange,
+                backgroundColor: const Color.fromARGB(255, 81, 59, 26),
               ),
               onPressed: () {
                 Navigator.push(
